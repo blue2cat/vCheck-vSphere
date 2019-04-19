@@ -8,7 +8,7 @@ $SetupWizard = $true
 
 # Start of Settings
 # Report header
-$reportHeader = "vCheck"
+$reportHeader = "vCheck - Modern"
 # Would you like the report displayed in the local browser once completed ?
 $DisplaytoScreen = $true
 # Display the report even if it is empty?
@@ -32,7 +32,7 @@ $EmailReportEvenIfEmpty = $true
 # If you would prefer the HTML file as an attachment then enable the following:
 $SendAttachment = $false
 # Set the style template to use.
-$Style = "Clarity"
+$Style = "VMware"
 # Do you want to include plugin details in the report?
 $reportOnPlugins = $true
 # List Enabled plugins first in Plugin Report?
