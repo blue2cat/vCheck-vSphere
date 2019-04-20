@@ -1,6 +1,7 @@
 # You can change the following defaults by altering the below settings:
 #
-
+#import date for title:
+$date= (Get-Date)
 
 # Set the following to true to enable the setup wizard for first time run
 $SetupWizard = $true
@@ -8,7 +9,7 @@ $SetupWizard = $true
 
 # Start of Settings
 # Report header
-$reportHeader = "vCheck - Modern"
+$reportHeader = "vCheck - Update Run $date"
 # Would you like the report displayed in the local browser once completed ?
 $DisplaytoScreen = $true
 # Display the report even if it is empty?
@@ -26,7 +27,7 @@ $EmailTo = "gavin.stuart@cornerstonenw.com"
 # Please specify the email address(es) who will be CCd to receive the vCheck report (separate multiple addresses with comma)
 $EmailCc = ""
 # Please specify an email subject
-$EmailSubject = "$Server vCheck Report - TEST"
+$EmailSubject = "$Server vCheck Report - TEST ONLY"
 # Send the report by e-mail even if it is empty?
 $EmailReportEvenIfEmpty = $true
 # If you would prefer the HTML file as an attachment then enable the following:
