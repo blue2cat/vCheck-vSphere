@@ -27,7 +27,7 @@ $EmailTo = "gavin.stuart@cornerstonenw.com"
 # Please specify the email address(es) who will be CCd to receive the vCheck report (separate multiple addresses with comma)
 $EmailCc = ""
 # Please specify an email subject
-$EmailSubject = "$Server vCheck Report - TEST ONLY"
+$EmailSubject = "$Server vCheck Report $date"
 # Send the report by e-mail even if it is empty?
 $EmailReportEvenIfEmpty = $true
 # If you would prefer the HTML file as an attachment then enable the following:
