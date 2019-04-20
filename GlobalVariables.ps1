@@ -18,15 +18,15 @@ $SendEmail = $false
 # Please Specify the SMTP server address (and optional port) [servername(:port)]
 $SMTPSRV = "mysmtpserver.mydomain.local"
 # Would you like to use SSL to send email?
-$EmailSSL = $false
+$EmailSSL = $true
 # Please specify the email address who will send the vCheck report
 $EmailFrom = "me@mydomain.local"
 # Please specify the email address(es) who will receive the vCheck report (separate multiple addresses with comma)
-$EmailTo = "me@mydomain.local"
+$EmailTo = "gavin.stuart@cornerstonenw.com"
 # Please specify the email address(es) who will be CCd to receive the vCheck report (separate multiple addresses with comma)
 $EmailCc = ""
 # Please specify an email subject
-$EmailSubject = "$Server vCheck Report"
+$EmailSubject = "$Server vCheck Report - TEST"
 # Send the report by e-mail even if it is empty?
 $EmailReportEvenIfEmpty = $true
 # If you would prefer the HTML file as an attachment then enable the following:
